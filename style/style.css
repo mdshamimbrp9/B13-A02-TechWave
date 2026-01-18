@@ -74,6 +74,23 @@ header nav {
 .menu img {
   display: none;
 }
+/* Banner-section-Design  */
+#banner {
+  background-image: url("hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  padding: 100px 15px;
+}
+#banner .banner-content {
+  max-width: 550px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
 
 
 /* Mobile-Responsive-section */
@@ -89,6 +106,11 @@ header nav {
 }
 .menu img {
   display: block;
+}
+
+/* banner-section  */
+#banner .banner-content {
+  max-width: 100%;
 }
 
 }
