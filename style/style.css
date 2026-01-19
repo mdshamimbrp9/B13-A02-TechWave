@@ -76,9 +76,8 @@ header nav {
 }
 /* Banner-section-Design  */
 #banner {
-  background-image: url("hero-bg.png");
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url('assets/hero-circle.png');  background-repeat: no-repeat;
+  background-position: cover;
   display: flex;
   padding: 100px 15px;
 }
@@ -89,7 +88,14 @@ header nav {
   flex-direction: column;
   gap: 30px;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
+}
+
+#banner .banner-content h1 {
+  font-size: 3.5rem;
+}
+.button-box {
+  gap: 20px;
 }
 
 
@@ -112,6 +118,10 @@ header nav {
 #banner .banner-content {
   max-width: 100%;
 }
+#banner .banner-content h1 {
+  font-size: 2.5rem;
+}
+
 
 }
 
